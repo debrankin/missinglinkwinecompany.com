@@ -1,0 +1,11 @@
+User-Agent: *
+
+Disallow: /
+Disallow: /index.php
+Disallow: /test/
+Disallow: /index3.html
+Disallow: /index2.html
+Disallow: /index1.html
+Disallow: /pricelist.html
+Disallow: /importers.html
+Disallow: /template.html

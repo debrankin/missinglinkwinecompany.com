@@ -1,0 +1,101 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Basic
+  -----------------------------------
+*/
+
+.p7AP3-01 {
+	padding: 0px;
+	margin: 0 auto;
+	width: auto;
+}
+.p7AP3:after {
+	content: ".";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+	display: none;
+}
+.p7AP3trig.p7ap3-theme-01 {
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	display: none;
+}
+.p7AP3trig.p7ap3-theme-01 h3, .p7AP3trig.p7ap3-theme-01 h4 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: normal;
+	display: none;
+}
+/* title tab closed - off state */
+.p7AP3trig.p7ap3-theme-01 a {
+	display: none;
+	text-decoration: none;
+	
+	
+}
+/* externally linked, no content ony */
+.p7AP3trig.p7ap3-theme-01 .p7AP3_ext, .p7AP3trig.p7ap3-theme-01 .p7AP3_ext.p7AP3trig_down {
+	background-image: url(img/p7AP3_page_black.gif);
+	background-color: #FFF;
+	letter-spacing: normal;
+	color: #000;
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3_ext:hover {
+	display: none;
+}
+.p7AP3trig.p7ap3-theme-01 a:hover {
+	color: #FFF;
+	border-radius: 6px 6px 6px 6px;
+	border-top: 1px solid #ECECEC;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #ECECEC;
+	display: none;
+}
+.p7AP3trig.p7ap3-theme-01 a:focus {}
+.p7AP3trig.p7ap3-theme-01 .p7AP3trig_down, .p7AP3trig.p7ap3-theme-01 .p7AP3trig_down:hover {
+	
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3trig_down:hover {
+	color: #000000;
+}
+.p7AP3cwrapper.p7ap3-theme-01 {
+	position: relative;
+	top: -2px;
+	background-color: #FFFFFF;
+}
+.p7AP3panelcontent.p7ap3-theme-01 {
+	line-height: 1.5em;
+	color: #000;
+	border: 1px solid #CCC;
+	border-top: none;
+	
+	border-radius: 0px;
+}
+.p7AP3panelcontent.p7ap3-theme-01 h1,
+.p7AP3panelcontent.p7ap3-theme-01 h2,
+.p7AP3panelcontent.p7ap3-theme-01 h3,
+.p7AP3panelcontent.p7ap3-theme-01 h4 {
+	margin: 0px;
+}
+.p7AP3content.p7ap3-theme-01 p {
+	margin: 0px 0;
+}
+.p7AP3trig.p7ap3-theme-01 a.current_mark {
+	font-weight: normal;
+}
+.p7AP3trig.p7ap3-theme-01 a.p7AP3_ext.current_mark, .p7AP3trig.p7ap3-theme-01 a.p7AP3_ext.current_mark:hover {
+	background-image: url(img/p7AP3_page_black.gif) !important;
+	background-color: #FFF !important;
+	color: #000 !important;
+}
+.p7AP3panelcontent.p7ap3-theme-01 .current_mark {
+	font-weight: normal;
+}

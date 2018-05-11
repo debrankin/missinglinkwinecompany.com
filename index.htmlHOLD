@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Missing Link Wine Company</title>
+<style type="text/css">
+body {
+	background-attachment: fixed;
+	background-image: url(images/glass.png);
+	background-repeat: no-repeat;
+	background-position: 30px top;
+	
+}
+</style>
+</head>
+
+<body>
+</body>
+</html>

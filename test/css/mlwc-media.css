@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt,
+blockquote, fieldset, legend, label, input, textarea {
+    margin: 0; padding: 0; border: 0;
+}
+sh1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 1em 0;
+}
+/*h1{font-size: 200%;}
+h2{font-size: 170%;}
+h3{font-size: 160%;}
+h4{font-size: 140%;}
+h5{font-size: 120%;}*/
+
+html, body { height: 100%; }
+
+body {
+	font-family: "Segoe UI", Optima, Helvetica, Arial, sans-serif;
+	color: #000;
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	padding-bottom: 4em;
+}
+.wrapper {
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.wrapper .content {
+	border: 2px solid #8BAC18;
+	border-radius: 8px;
+	max-width: 93%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background-color: #FFFFFF;	
+}
+
+h1 {
+	color: #98BC1B;
+	font-size: 4em;
+	font-family: almendra;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 0px;
+
+ }
+ #apDiv1 {
+	position: relative;
+	width: 400px;
+	height: 70px;
+	z-index: 2;
+	top: -87px;
+	left: auto;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -60px;
+}
+ #apDiv2 {
+	position: relative;
+	width: 400px;
+	height: 70px;
+	z-index: 2;
+	top: -87px;
+	left: auto;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -60px;
+}
+img {
+	vertical-align: bottom;
+}
+.clearfloat {
+	clear:both
+}
+.hdr-bg {
+	height: 81px;
+	width: auto;
+	max-width: 100%;
+	margin-top: 15px;
+	background-image: url(../images/hdr-bg2.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.hdr-bg2 {
+	height: 81px;
+	width: auto;
+	max-width: 100%;
+	margin-top: 15px;
+	background-image: url(../images/band-dgreen-background.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#hdr-text {
+	position: relative;
+	width: 449px;
+	background-image: url(images/header-band-bg.png);
+	background-repeat: no-repeat;
+}
+a:link {
+	text-decoration: none;
+	color: #98BC1B;
+}
+
+a:visited {
+	color: #98BC1B;
+}
+
+a:hover {
+	color: #A1D31A;
+}
+.contactus {
+	margin-bottom: 15px;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	background-image: url(../images/contact-bg.png);
+	background-repeat: repeat-x;
+	height: 36px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	font-size: 1.25em;
+}
+.contactus2 {
+	margin-bottom: 15px;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	background-image: url(../images/contact-bg2.png);
+	background-repeat: repeat-x;
+	height: 36px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	font-size: 1.25em;
+}
+#contactus2 a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#contactus2 a:visited {
+	color: #FFFFFFs;
+}
+
+#contactus2 a:hover {
+	color: #D1FB72;
+}
+
+/*Make Image Scalable - Assign this class to any image to make it scale with the browser window size*/
+img.scalable {
+	height: auto !important;
+	width: auto !important;
+	max-width: 100%;
+
+}
+img.scalable1 {
+
+	width: auto !important;
+	max-width: 100%;
+
+}
+img.scalable2 {
+
+	width: auto !important;
+	max-width: 70%;
+
+
+}
+.scal-arrow {
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	/*background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; */
+	text-align: right;
+}
+.scal-arrow2 {
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	background-image: url(../images/arrow2.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	/*background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; */
+	text-align: right;
+}
+
+/*1 Column for Narrow Browser Windows and Smartphones in both orientations*/
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+	
+
+.wrapper {
+    padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: auto !important;
+	max-height: 888678px;
+
+}
+.wrapper .content {
+	border: 2px solid #8BAC18;
+	max-width: 98%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+}
+#apDiv1 {
+	position: relative;
+	width: 300px;
+	height: 70px;
+	z-index: 2;
+	top: -74px;
+	left: auto;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#apDiv2 {
+	position: relative;
+	width: 300px;
+	height: 70px;
+	z-index: 2;
+	top: -74px;
+	left: auto;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+    color: #98BC1B;
+	font-size: 3em;
+	font-family: almendra;
+	font-style: normal;
+	font-weight: 400;
+ }
+.scal-arrow {
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6px;
+	background-image: url(../images/arrow-sm.png);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	text-align: right;
+}
+.scal-arrow2 {
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6px;
+	background-image: url(../images/arrow-sm2.png);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	text-align: right;
+}
+.contactus {
+	font-size: 1em;
+}
+.contactus2 {
+	font-size: 1em;
+}
+
+}
+/*Medium windows - reduce padding content padding*/
+@media only screen and (min-width: 700px) and (max-width: 1280px) {
+
+}
+.wrapper {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.wrapper .content {
+	
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: top;
+}
+
+}

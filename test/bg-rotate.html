@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>Rotating Background Images Demo - Fearlessflyer.com</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script><script type="text/javascript" src="jquery/jquery.cycle.all.js"></script>
+
+<script> 
+	$(document).ready(function() {
+				$('#slideshow').cycle({
+				fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+				pager: '#smallnav', 
+				pause:   1, 
+				speed: 1800,
+				timeout:  3500 
+			});			
+		});
+	</script>
+<style>
+
+#slideshow,img.bgM {
+min-height:100%;min-width:1024px;width:100%;height:auto;position:fixed;top:0;left:0;z-index:-9999;
+}
+
+#wrap{
+	background:none repeat scroll 0 0 #fff;border:1px solid #999999;border-radius:15px 15px 15px 15px;box-shadow:0 0 10px #333333,1px 1px 200px #bcbcbc inset;color:#666666;font-family:arial,serif;font-size:15px;line-height:20px;margin:40px auto 25px auto;padding:30px;text-shadow:1px 1px 0 #FFFFFF;width:580px;height:750px;opacity:.9;position:relative;z-index:99;
+	
+	}
+	
+#wrap h3 {
+font-size:45px;font-family:georgia;font-weight:normal;color:#000000;line-height:50px;padding:0;margin:0;
+
+}
+
+#linkback a {
+position:absolute;top:-15px;left:520px;background:#d80000;border:1px solid #999999;border-radius:160px;box-shadow:0 0 5px #333333,1px 1px 50px #a41111 inset;width:130px;height:110px;z-index:100;font-size:28px;line-height:26px;color:#FFFFFF;text-align:center;text-shadow:1px 1px 0 #000;text-decoration:none;padding-top:20px;font-weight:bold;
+}
+</style>
+</head>
+<body><script type="text/javascript">
+//<![CDATA[
+try{(function(a){var b="http://",c="demo.fearlessflyer.com",d="/cdn-cgi/cl/",e="d15bc47111125f55181a8e996d117522936764a6.gif",f=new a;f.src=[b,c,d,e].join("")})(Image)}catch(e){}
+//]]>
+</script>
+<div id="slideshow">
+<img src="images/glass-lrg.png" class="bgM"/>
+<img src="images/wine-bg-sm.png" class="bgM"/>
+<img src="images/ben.jpg" class="bgM"/>
+<img src="images/mlwc-logo-215w.png" class="bgM"/>
+
+</div>
+<div id="wrap">
+<div id="linkback"></div>
+<h3>&nbsp;</h3>
+</div>
+</body>
+</html>

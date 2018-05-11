@@ -1,0 +1,65 @@
+@charset "UTF-8";
+html, body{
+	font-family : Tahoma, Arial, Helvetica, sans-serif;
+	font-size : 16px;
+	color : #333;
+	height : 100%;
+	text-align : center;
+	background : #888;
+}
+
+#content{
+	margin : 20px auto 20px auto;
+	padding	: 20px;
+	border : 1px solid #333;
+	width : 900px;
+	height	: auto;
+	background : #FFF;
+	position : relative;
+	text-align : left;
+}
+
+p{
+	margin : 0px 0px 0px 0px;
+	padding	: 5px 0px 10px 0px;
+	line-height : 1.6em;
+}
+
+h1{
+	margin : 0px 0px 0px 0px;
+	padding	: 5px 0px 10px 0px;
+	font-size : 30px;
+	font-weight : normal;
+}
+
+#backtotop {
+	cursor : pointer;
+	display : none;
+	margin : 0px 0px 0px 370px;
+	position : fixed;
+	bottom : 10px;
+	font-size : 90%;
+	padding	: 10px;
+	width : 100px;
+	text-align : center;
+	background-color : #000;
+	border-radius : 8px;
+	-webkit-border-radius : 8px;
+	-moz-border-radius : 8px;
+	filter : alpha(opacity=60);
+	-khtml-opacity : 0.6;
+	-moz-opacity : 0.6;
+	opacity	: 0.6;
+	color : #FFF;
+	font-size : 14px;
+	z-index	: 1000;
+}
+#backtotop:hover
+{
+	filter : alpha(opacity=90);
+	-khtml-opacity : 0.9;
+	-moz-opacity : 0.9;
+	opacity	: 0.9;
+}
+/* CSS Document */
+

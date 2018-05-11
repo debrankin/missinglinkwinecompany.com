@@ -1,0 +1,234 @@
+/* 
+  ------------------------------------------------
+  PVII Affinity
+  Copyright (c) 2013 Project Seven Development
+  www.projectseven.com
+  02: 2 Col Flex Sidebar Right
+  ------------------------------------------------
+*/
+
+body {
+	font-family: "Segoe UI", Optima, Helvetica, Arial, sans-serif;
+	color: #000;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	padding-bottom: 4em;
+}
+img {
+	vertical-align: bottom;
+}
+.masthead {
+	text-align: left;
+	position: relative;
+	z-index: 10;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 145px;
+}
+
+.content-wrapper {
+	overflow: hidden;
+	margin-top: 0em;
+	margin-right: 1.25em;
+	margin-bottom: 0em;
+	margin-left: 1.25em;
+}
+.columns-wrapper {
+	overflow: hidden;
+	background-color: #FFF;
+	position: relative;
+}
+.columns-wrapper, .menu-top-wrapper {
+	max-width: 1260px;
+	margin: auto;
+}
+
+.main-content {
+	float: left;
+	width: 76%;
+	margin-right: 1%;
+}
+.sidebar {
+	width: 23%;
+	float: left;
+}
+
+.sidebar .content {
+	padding: 20px 20px;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	background-color: #7A9717;
+	background-image: -webkit-linear-gradient(#7A9717, #9ED11D);
+	background-image: linear-gradient(#7A9717, #9ED11D);
+	border: 1px solid;
+	border-color: #333;
+	border-radius: 5px;
+}
+
+.main-content .content{
+	padding: 20px 30px;
+	font-size: 1em;
+	line-height: 1.5em;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #666;
+}
+
+/*Heading styles*/
+h1, h2, h3, h4 {
+	margin: 30px 0px 0px 0px;
+	font-family: Federo, "Segoe UI", Optima, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.35em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.1em; }
+
+/*A utility rule assigned to the first heading to remove top margins.*/
+.content h1:first-child,
+.content h2:first-child,
+.content h3:first-child,
+.content h4:first-child {
+	margin-top: 0px;
+}
+
+/*Make Image Scalable - Assign this class to any image to make it scale with the browser window size*/
+img.scalable {
+	height: auto !important;
+	width: auto !important;
+	max-width: 100%;
+	border-radius: 5px;
+}
+.fancy {
+	border: 1px solid rgba(255,255,255,.2);
+	box-shadow: 0px 0px 30px rgba(0,0,0,.65);
+}
+.sidebar ul, .sidebar ol, .sidebar2 ul, .sidebar2 ol {
+	margin: 0 0 0 .5em;
+	padding: 0 0 0 .5em;
+	line-height: normal;
+}
+.sidebar li, .sidebar2 li { 
+	margin-bottom: 4px; 
+}
+
+/*Ordinary Link Styles*/
+.content a {
+	color: #4D650E;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+.content a:hover, .content a:focus {
+	color: #000;
+	border-bottom-style: solid;
+}
+.footer a {
+	color: #8C8C8C;
+}
+.footer a:hover, .footer a:focus { color: #FFF; }
+
+
+/*The DIVs that contains the horizontal menu bar at the top of your page.*/
+.top-navigation {
+	background-color: #7A9717;
+	border-bottom: 1px solid #FFF;
+	box-shadow: 0px 0px 30px #999;
+	position: relative;
+	z-index: 9;
+}
+.top-navigation:after {
+	content: "\0020";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 0;
+	clear: both;
+}
+.menu-top-wrapper .p7DMM01 {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/*The Footer*/
+.footer {
+	background-color: #222;
+	box-shadow: inset 0px 16px 2px rgba(255,255,255,.025);
+	border-top: 1px solid #000;
+	padding: 15px 15px;
+	font-size: 0.7em;
+	color: #8C8C8C;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	z-index: 999;
+	top: auto;
+	bottom: 0px;
+	width: 100%;
+}
+.footer2 {
+	background-color: #222;
+	box-shadow: inset 0px 16px 2px rgba(255,255,255,.025);
+	border-top: 1px solid #000;
+	padding: 15px 15px;
+	font-size: 0.7em;
+	color: #8C8C8C;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	z-index: 999;
+	top: auto;
+	bottom: 0px;
+	width: 100%;
+}
+.footer p.copyright {
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+
+/*1 Column for Narrow Browser Windows and Smartphones in both orientations*/
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+body {
+	padding-bottom: 0px;
+}
+.footer {
+	position: static;
+	width: auto;
+}
+.footer2 {
+	position: static;
+	width: auto;
+}
+.content-wrapper, .columns-wrapper {margin: 0px; border: none;}
+.sidebar, .main-content {
+	width: auto;
+	float: none;
+	position: static;
+}
+.main-content .content, .sidebar .content {
+	padding: 20px 10px;
+	border-radius: 0px ;
+	border: none;
+	height: auto !important;
+	max-height: 888678px;
+}
+.p7DMM01 ul a, .p7DMM01 ul a:hover, .p7DMM01 ul a:focus, .p7DMM01 ul a.open {
+	border-bottom: 1px solid;
+	border-color: #7A9717;
+}
+.p7DMM01 ul li:last-child a {
+	border-bottom: none;
+}
+}
+/*Medium windows - reduce padding content padding*/
+@media only screen and (min-width: 700px) and (max-width: 1280px) {
+.main-content .content, .sidebar .content {padding: 20px 15px;}
+.top-navigation {padding: 0px 10px;}
+.content-wrapper {margin-left: 10px; margin-right: 10px;}
+}
